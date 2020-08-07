@@ -1,0 +1,32 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "React Hello World",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build", 
+    "predeploy": "npm run build"
+  },
+  "author": "CodeMix",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "gh-pages": "^3.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^2.1.5"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "https://ohsumin.github.io/weather-app/"
+}
